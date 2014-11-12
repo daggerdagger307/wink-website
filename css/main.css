@@ -1,0 +1,208 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 1120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+}
+
+a:focus {
+
+    outline: 3px solid #000;
+    
+}
+
+.skip-links {
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.skip-links a {
+    
+    position: absolute;
+    top: -3em;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.skip-links a:focus {
+
+    top: 0;
+
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+
+    display: block;
+    color: #000;
+    text-decoration: none;
+
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active 
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    
+    background-color: #0074d9;
+    color: #fff;
+
+}
+
+.sectionlight {
+
+    background-color: #efefef;
+
+}
+
+.sectionmed {
+
+    background-color: #e2e2e2;
+
+}
+
+.sectiondark {
+    
+    background-color: #ccc;
+
+}
+
+.footer-nav a {
+
+    text-decoration: none;
+    
+}
+
+@media only screen and (min-width: 25em) {
+    
+    .nav li {
+        
+        display: inline-block;
+        margin: .15rem;
+}
+    .nav {
+        
+        text-align: center;
+        
+    } 
+    
+    .copy {
+        
+        text-align: center;
+    }
+     
+    .footer-nav li::after {
+        
+        content: "·";
+        color: #666;
+        padding-left: .5em;
+        
+    }
+    
+    .footer-nav li:last-child::after{
+        
+        content: none;
+    
+    }
+    
+    .footer-nav a,
+    .footer-nav a:link,
+    .footer-nav a:visited {
+    
+        display: inline-block;
+    }
+   
+}
+
+@media only screen and (min-width: 38em) {
+
+    .mars {
+        
+        float: left;
+    }
+  
+    .footer {
+        
+        text-align: right;
+    }
+    
+    .copy {
+        
+        text-align: left;
+    }
+    
+    .climate {
+        
+        text-align: left;
+}
+ .footer-nav {
+ 
+    text-align: right;
+    
+    }   
+    
+}
+
+@media only screen and (min-width: 60em) {
+
+   .data dt {
+        float: left;
+       width: 10rem;
+    }
+    
+    .data dd {
+        
+        clear: right;
+    
+    }
+  
+}
