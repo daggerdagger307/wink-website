@@ -211,5 +211,16 @@ body {
         clear: right;
     
     }
+    
+     .copy {
+        
+        text-align: left;
+    }
+    
+ .footer-nav {
+ 
+    text-align: right;
+    
+    }  
   
 }
