@@ -127,11 +127,11 @@ body {
     .nav li {
         
         display: inline-block;
-        margin: .15rem;
+        margin: .10rem;
 }
     .nav {
         
-        text-align: center;
+        text-align: left;
         
     } 
     
