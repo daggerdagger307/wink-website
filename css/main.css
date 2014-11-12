@@ -76,6 +76,16 @@ body {
     
 }
 
+.nav {
+    
+    margin: 0;
+    color: #0074d9;
+    list-style-type: none;
+    padding: .5rem 0;
+    overflow: hidden;
+    
+}
+
 .nav a,
 .nav a:link,
 .nav a:visited {
