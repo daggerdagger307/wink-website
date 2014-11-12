@@ -80,7 +80,7 @@ body {
 .nav a:link,
 .nav a:visited {
 
-    display: inline-block;
+    display: block;
     color: #000;
     text-decoration: none;
 
@@ -127,11 +127,11 @@ body {
     .nav li {
         
         display: inline-block;
-        margin: .10rem;
+        margin: .15rem;
 }
     .nav {
         
-        text-align: right;
+        text-align: center;
         
     } 
     
