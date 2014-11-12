@@ -206,7 +206,7 @@ body {
 @media only screen and (min-width: 60em) {
 
    .data dt {
-        float: left;
+        float: right;
        width: 10rem;
     }
     
