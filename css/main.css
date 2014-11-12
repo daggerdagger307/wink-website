@@ -203,7 +203,7 @@ body {
 
    .data dt {
         float: right;
-       width: 10rem;
+       width: 100%;
     }
     
     .data dd {
