@@ -169,7 +169,7 @@ body {
     .footer-nav a:link,
     .footer-nav a:visited {
     
-        display: inline-block;
+        display: block;
     }
    
 }
