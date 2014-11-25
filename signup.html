@@ -9,7 +9,7 @@
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
 </head>
-<body>
+<body class="body">
 
 <ul class="skip-links">
 
@@ -20,34 +20,78 @@
     
 <main class="main">
     
-    <h1 role="banner" class="mars giga pad-top gutter" id="top">Wink</h1>
+        <div class="header">
+            
+                <nav role="navigation" class="nav-top" id="nav">	
+                    <ul>
+                        <li class="island-1-2"><a href="index.html" class="brand-family">Wink</a></li>
+				        <li class="island-1-2"><a href="pricing.html" class="brand-family">Pricing</a></li>
+                        <li class="island-1-2"><a href="signup.html" class="brand-family zetta">Sign&nbsp;Up</a></li>
+                      
+                    </ul>
+              
+                </nav>
+               
+        </div> 
     
-        <nav role="navigation" id="nav">
-            <ul class="nav brand-family giga island">
-                <li class="push"><a href="index.html" class="island-1-2">Welcome</a></li>
-                <li class="push"><a href="pricing.html" class="island-1-2">Pricing</a></li>
-                <li class="push"><a href="signup.html" class="island-1-2 nav-current">Sign Up</a></li>
-            <li class="push"><a href="thankyou.html" class="island-1-2">Thank You</a></li>
-            </ul>
-        </nav>
+    <div class="join sectionlight">
     
-</main>
+    <h2 class="push pad-top brand-family">Three Steps Away</h2>  
     
+    <form>  
     
-    
-    
-    
-    
-    
+            <div class="island">   
+                <label for="name">Name</label>    
+                <input class="name" id="name"> 
+            </div>
+            <div class="island">
+                <label for="email">E-Mail</label>    
+                <input class="email" id="email"> 
+            </div>
+            <div class="island">
+                <label for="number">Age</label>    
+                <input class="age" id="number" type="number"> 
+            </div> 
+      
+        
+            <div class="awesome island">
+                    <p class="milli">Screen Printing Experience:</p>
+                <span class="radio">
+                    <input type="radio" id="meh" name="level-of-awesomeness">
+                    <label for="ok">Beginner</label>
+                </span>
+                <span class="radio">
+                    <input type="radio" id="good" name="level-of-awesomeness">
+                    <label for="ok">Advanced</label>
+                </span>
+                <span class="radio">
+                    <input type="radio" id="amaze" name="level-of-awesomeness">
+                    <label for="ok">Expert</label>
+                </span>
+            </div> 
+      
+            <div class="island">
+                <label for="stuff">Explain why you deserve to go:</label>
+                <textarea class="explain" id="stuff"></textarea>
+            </div> 
+
+            <div class="island">
+                <button inputtype="button" onclick="signup">Sign Up</button>
+            </div>
+        
+</div>
+
     <footer role="contentinfo" class="sectiondark grid"> 
-    <p class="copy micro push-none gutter-1-2 unit unit-s-1 unit-m-1-2 unit-l-1-2">© 2014 Rutland Ink ·<a href="#top">Top</a></p>
-    <ul class="footer-nav nav push-none gutter-1-2 milli unit unit-xs-1-2 unit-s-1 unit-m-1-2 unit-l-1-2">
-        <li><a href="index.html">Welcome</a></li>
-        <li><a href="pricing.html">Pricing</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
-        <li><a href="thankyou.html">Thank You</a></li>
-    </ul>
-</footer>
+        <p class="island brand-family-black giga push-none gutter-1-2 unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">© 2014 Rutland Ink ·<a href="#top">Top</a></p>
+        <ul class="island footer-nav nav push-none gutter-1-2 milli unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+            <li class="brand-family giga"><a href="index.html">Wink</a></li>
+            <li class="brand-family giga"><a href="pricing.html">Pricing</a></li>
+            <li class="brand-family giga"><a href="signup.html">Sign Up</a></li>
+        
+        </ul>
+    </footer>
     
+    </main>
+    <script src="js/toggle.js"></script>
 </body> 
 </html>

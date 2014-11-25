@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 "Merriweather",serif;
+  font: normal 100%/1.5 "Merriweather", serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -145,7 +145,15 @@ sub {
 h1, h2, h3, h4, h5, h6, 
 .brand-family {
 
-    font-family: "Open Sans", sans-serif;
-    color: #0074d9;
+    font-family: "Open sans", serif;
+    color: white;
+
+}
+
+.brand-family-black {
+
+    font-family: "Open sans", serif;
+    color: black;
+    
 
 }
