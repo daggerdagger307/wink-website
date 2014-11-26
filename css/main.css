@@ -353,6 +353,12 @@ a:focus {
     margin: 0;
  }
 
+.btt {
+
+text-decoration-color: #fff;
+
+}
+
 .copy {
         
         text-align: center;
@@ -432,13 +438,7 @@ a:focus {
         display: inline-block;
          
     }
-    
-    .nav {
-        
-        text-align: center;
-        
-    } 
-    
+
     .billboard {
    
     padding-top: 3em;
@@ -513,13 +513,7 @@ a:focus {
         
         text-align: center;
     }
-    
- .nav {
- 
-    text-align: center;
-    
-    }   
-    
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -545,13 +539,5 @@ a:focus {
         
         text-align: center;
     }
-    
- .nav {
  
-    text-align: center;
-    
-    }  
-    
- 
-  
 }
