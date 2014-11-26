@@ -95,6 +95,10 @@ sub {
   padding-top: 1.5rem;
 }
 
+.pad-top-one-half, pad-t-1 {
+    padding-top: 2rem;
+}
+
 .pad-bottom, .pad-b {
   padding-bottom: 1.5rem;
 }
@@ -146,14 +150,12 @@ h1, h2, h3, h4, h5, h6,
 .brand-family {
 
     font-family: "Open sans", serif;
-    color: white;
+    color: #fff;
 
 }
 
-.brand-family-black {
+.brand-family-blue {
 
     font-family: "Open sans", serif;
-    color: black;
-    
-
+    color: #1b7aa1;
 }

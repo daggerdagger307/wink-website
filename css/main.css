@@ -21,13 +21,37 @@ html {
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightgrey;
+    background-color: #d1e4ec;
 }
 
 .main {
 
     background-color: white;
     max-width: 937px;
+}
+
+.logo {
+
+    max-width: 12em;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.iphone {
+
+    max-width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.iphonep {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -36,7 +60,7 @@ html {
     text-align: center;
 }
 
-.awesome {
+.experience {
     
     text-align: left
 }
@@ -98,13 +122,41 @@ img {
 .button {
 
     max-width: 12em;
-    align-items: right;
-    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button-grid {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.byline {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+.byline2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+h2 {
+
+    display: none;
+
 }
 
 .bordertop {
 
-    border-top: 27px solid #0074d9;
+    border-top: 27px solid #1b7aa1;
     border-radius: .5em;
 
 }
@@ -120,48 +172,51 @@ img {
 
 .how {
     
-    background-color: navy;
+    background-color: #1b7aa1;
+    font-weight: 55em;
     
 }
 
 .centertext{
     
     text-align: center;
+    
+}
+
+.right {
+
+    text-align: right;
+
 }
 
 .header{
+    
     display: block;
     width: 100%;
-    background-color: #0074d9;
+    background-color: #1b7aa1;
     overflow: hidden;
 }
 
 .billboard {
-    margin: 0;
     padding: 12%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(../images/ink_BLACK_WAHITE.jpg);
+    background-image: url(../images/ink_shelf.jpg);
+    padding-top: 10%;
 }
 
- .nav li {
-        
-        display: inline-block;
-        margin: 0;       
-}
-
+ 
 .nav-top ul { 
 	margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: blue;
+    background-color: #1b7aa1;
     text-align: center;
-    padding: 1em;
-    font-size: 1.5rem;
-    font-weight: bold;
-    
-    
+    padding: .5em;
+    font-size: 1rem;
+    font-weight: lighter;
+    display: block;
 }
 
 .nav-top a,
@@ -260,13 +315,13 @@ a:focus {
 .nav {
     
     margin: 0;
-    color: black;
+    color: #fff;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
     text-decoration: none;
-    text-align: right;
-    
+    text-align: center;
+ 
 }
 
 .nav a,
@@ -274,7 +329,7 @@ a:focus {
 .nav a:visited {
 
     display: block;
-    color: black;
+    color: #fff;
     text-decoration: none;
     
 
@@ -287,17 +342,39 @@ a:focus {
 .nav .nav-current:link,
 .nav .nav-current:visited {
     
-    background-color: black;
+    background-color: #1b7aa1;
     color: #fff;
 
 }
 
  .nav li {
-        
-        display: block;
-        margin: 0;
+
+    display: inline-block;
+    margin: 0;
  }
 
+.copy {
+        
+        text-align: center;
+        
+    }
+
+.instagram {
+    
+    max-width: 3em;
+
+}
+
+.twitter {
+    
+   max-width: 3em; 
+                                
+}
+
+.facebook {
+    
+    max-width: 3em;
+}
 
 .sectionlight {
 
@@ -313,31 +390,29 @@ a:focus {
 
 .sectiondark {
     
-    background-color: #ccc;
+    background-color: #456778;
 
 }
 
 .sectionlightblue {
 
-    background-color: #8cc5eb;
+    background-color: #d1e4ec;
     
 }
 
 .sectionmidblue {
 
-    background-color: #63b6e6;
+    background-color: #76afc7;
     
 }
 
 .sectiondarkblue {
 
-    background-color: #1c79a1;
+    background-color: #1b7aa1;
     
 }
 
-
-
-.footer-nav a {
+.nav a {
 
     text-decoration: none;
     
@@ -350,37 +425,34 @@ a:focus {
         
         display: inline-block;
         margin: 0;
-        
 }
+    
+     .nav-top li {
+    
+        display: inline-block;
+         
+    }
+    
     .nav {
         
-        text-align: right;
+        text-align: center;
         
     } 
     
-    
+    .billboard {
+   
+    padding-top: 3em;
+        
+}
     .copy {
         
-        text-align: left;
-    }
-     
-    .footer-nav li::after {
-        
-        content: "·";
-        color: #666;
-        padding-left: .5em;
+        text-align: center;
         
     }
-    
-    .footer-nav li:last-child::after{
-        
-        content: none;
-    
-    }
-    
-    .footer-nav a,
-    .footer-nav a:link,
-    .footer-nav a:visited {
+      
+    .nav a,
+    .nav a:link,
+    .nav a:visited {
     
         display: inline-block;
     }
@@ -389,11 +461,6 @@ a:focus {
 
 @media only screen and (min-width: 38em) {
 
-  
-    .footer {
-        
-        text-align: right;
-    }
     
     .nav-top {
         
@@ -404,28 +471,52 @@ a:focus {
         margin: 0;
         margin-left: auto;
         margin-right: auto;
-        
+        display: block;
+
     }
+    
+        .overview {
+
+    margin-top: 4em;
+    margin-bottom: 4em;
+
+}
+    
+        .features {
+
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+    
+    h2 {
+    
+        display: block;
+        font-weight: lighter;
+    
+    }
+    
+    .billboard {
+   
+        padding-top: 8em;
+        
+}
     
     .nav-top li {
     
         display: inline-block;
+         
     }
     
-    .nav-btn {
-    
-        display: none;
-        
-    }
     
     .copy {
         
-        text-align: left;
+        text-align: center;
     }
     
- .footer-nav {
+ .nav {
  
-    text-align: right;
+    text-align: center;
     
     }   
     
@@ -452,13 +543,15 @@ a:focus {
     
      .copy {
         
-        text-align: left;
+        text-align: center;
     }
     
- .footer-nav {
+ .nav {
  
-    text-align: right;
+    text-align: center;
     
     }  
+    
+ 
   
 }
