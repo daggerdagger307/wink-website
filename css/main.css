@@ -167,6 +167,11 @@ h2 {
     margin-right: auto;  
 }
 
+.bordertop {
+    border-top: 27px solid #1b7aa1;
+    border-radius: .5em;
+}
+
 .option {
     max-width: 12em;
     margin: 0;
@@ -177,6 +182,10 @@ h2 {
 .how {
     background-color: #1b7aa1;
     font-weight: 55em; 
+}
+
+.centertext{
+    text-align: center;
 }
 
 .right {
@@ -198,15 +207,18 @@ h2 {
     background-position: center center;
     background-image: url(../images/ink_shelf.jpg);
     padding-top: 10%;
+    height: 100%;
 }
 
 .nav-top ul { 
 	margin: 0;
     list-style-type: none;
     background-color: #1b7aa1;
+    padding: .5em;
     font-size: 1rem;
     font-weight: lighter;
-    display: inline-block;
+    display: block;
+    text-align: center;
 }
 
 .nav-top a,
@@ -216,6 +228,7 @@ h2 {
 	font-size: 1.25em;
 	color: #fff;
 	text-decoration: none;
+    text-align: center;
 }
 
 .nav-top a:hover,
@@ -289,7 +302,6 @@ a:focus {
     margin: 0;
  }
 
-
 .instagram {
     max-width: 3em;
 }
@@ -332,34 +344,33 @@ a:focus {
 
 .copy {
     text-align: center;
-}
+    }
 
 .footer-nav {
         text-align: center;
-}
+    }
 
 @media only screen and (min-width: 25em) {
-    
     
     .nav li {
         display: inline-block;
         margin: 0;
-    }
+        }
     .rtt {
         display: none;     
-    }
-        .rtt2 {
-        display:inline;     
+        }
+    .rtt2 {
+        display: inline;     
         }
     .nav-top li {
         display: inline-block;
-    }
+        }
     .billboard {
         padding-top: 3em;
-    }
+        }
     .copy {
         text-align: center;
-    }
+        }
     .nav a,
     .nav a:link,
     .nav a:visited {
@@ -369,33 +380,39 @@ a:focus {
         text-align: center;
         padding-top: 2%;
     }
-   
 }
 
 @media only screen and (min-width: 38em) {
 
+    .nav-top {
+        width: 100%;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        }
     .overview {
         margin-top: 4em;
         margin-bottom: 4em;
-    }
+        }
     .features {
         margin-top: 2em;
         margin-bottom: 2em;
-    }
+        }
     h2 {
         display: block;
         font-weight: lighter;
-    }
+        }
     .billboard {
         padding-top: 8em; 
-    }
+        }
     .nav-top li {
         display: inline-block;  
-    }
+        }
     .copy {
         text-align: left;
         padding-left: 5%;
-    }
+        }
     .footer-nav {
         text-align: right;
         padding-top: .8em;
@@ -405,7 +422,7 @@ a:focus {
 
 @media only screen and (min-width: 60em) {
 
-   .data dt {
+    .data dt {
         float: right;
         width: 10rem;
     }
