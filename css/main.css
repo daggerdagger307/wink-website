@@ -42,11 +42,6 @@ html {
     padding: 0;
 }
 
-.prlx_lyr_1 {
-    position: fixed;
-    width: 100%;
-}
-
 .logo {
     max-width: 12em;
     display: block;
@@ -172,11 +167,6 @@ h2 {
     margin-right: auto;  
 }
 
-.bordertop {
-    border-top: 27px solid #1b7aa1;
-    border-radius: .5em;
-}
-
 .option {
     max-width: 12em;
     margin: 0;
@@ -187,10 +177,6 @@ h2 {
 .how {
     background-color: #1b7aa1;
     font-weight: 55em; 
-}
-
-.centertext{
-    text-align: center;
 }
 
 .right {
@@ -212,19 +198,15 @@ h2 {
     background-position: center center;
     background-image: url(../images/ink_shelf.jpg);
     padding-top: 10%;
-    height: 100%;
 }
 
 .nav-top ul { 
 	margin: 0;
-    padding: 0;
     list-style-type: none;
     background-color: #1b7aa1;
-    text-align: center;
-    padding: .5em;
     font-size: 1rem;
     font-weight: lighter;
-    display: block;
+    display: inline-block;
 }
 
 .nav-top a,
@@ -234,7 +216,6 @@ h2 {
 	font-size: 1.25em;
 	color: #fff;
 	text-decoration: none;
-    text-align: center;
 }
 
 .nav-top a:hover,
@@ -245,10 +226,6 @@ h2 {
 .nav-top .nav-current:visited {
     background-color: black;
     color: #fff; 
-}
-
-.header {
-    overflow: hidden;
 }
 
 *, *:after, *:before {
@@ -355,78 +332,70 @@ a:focus {
 
 .copy {
     text-align: center;
-    }
+}
 
 .footer-nav {
         text-align: center;
-    }
+}
 
 @media only screen and (min-width: 25em) {
     
     
-        .nav li {
-            display: inline-block;
-            margin: 0;
+    .nav li {
+        display: inline-block;
+        margin: 0;
     }
-        .rtt {
-            display: none;     
+    .rtt {
+        display: none;     
     }
-         .rtt2 {
-            display:inline;     
+        .rtt2 {
+        display:inline;     
+        }
+    .nav-top li {
+        display: inline-block;
     }
-        .nav-top li {
-            display: inline-block;
+    .billboard {
+        padding-top: 3em;
     }
-        .billboard {
-            padding-top: 3em;
+    .copy {
+        text-align: center;
     }
-        .copy {
-            text-align: center;
+    .nav a,
+    .nav a:link,
+    .nav a:visited {
+        display: inline-block;
     }
-        .nav a,
-        .nav a:link,
-        .nav a:visited {
-            display: inline-block;
-    }
-        .footer-nav {
-            text-align: center;
-            padding-top: 2%;
+    .footer-nav {
+        text-align: center;
+        padding-top: 2%;
     }
    
 }
 
 @media only screen and (min-width: 38em) {
 
-        .nav-top {
-            width: 100%;
-            margin: 0;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
+    .overview {
+        margin-top: 4em;
+        margin-bottom: 4em;
     }
-
-        .overview {
-            margin-top: 4em;
-            margin-bottom: 4em;
+    .features {
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
-        .features {
-            margin-top: 2em;
-            margin-bottom: 2em;
+    h2 {
+        display: block;
+        font-weight: lighter;
     }
-        h2 {
-            display: block;
-            font-weight: lighter;
+    .billboard {
+        padding-top: 8em; 
     }
-        .billboard {
-            padding-top: 8em; 
+    .nav-top li {
+        display: inline-block;  
     }
-        .nav-top li {
-            display: inline-block;  
+    .copy {
+        text-align: left;
+        padding-left: 5%;
     }
-        .copy {
-            text-align: left;
-            padding-left: 5%;
-        }
     .footer-nav {
         text-align: right;
         padding-top: .8em;
