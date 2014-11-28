@@ -159,3 +159,9 @@ h1, h2, h3, h4, h5, h6,
     font-family: "Open sans", serif;
     color: #1b7aa1;
 }
+
+.brand-family-body-copy {
+
+    font-family: "Open sans", serif;
+    color: black;
+}

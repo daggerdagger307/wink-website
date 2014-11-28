@@ -42,91 +42,77 @@ html {
     padding: 0;
 }
 
-.logo {
+.prlx_lyr_1 {
+    position: fixed;
+    width: 100%;
+}
 
+.logo {
     max-width: 12em;
     display: block;
     margin: 0 auto;
-
 }
 
 .iphone {
-
     max-width: 15em;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .iphonep {
-
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .join {
-    
     text-align: center;
 }
 
 .experience {
-    
     text-align: left
 }
 
 form {
-    
     max-width: 42em;
     margin: 0 auto;
 }
 
 .radio {
-    
     white-space: nowrap;
 }
 
 input + label {
-    
     display: inline-block;
 }
 
 .name {
-    
     width: 100%;
     height: 4em;
 }
 
 .email {
-    
     width: 100%;
     height: 4em;
 }
 
 .age {
-    
     width: 100%;
     height: 4em;
 }
 
 .explain {
-    
     height: 20rem;
     width: 100%;
-
 }
 
 label {
-    
     display: block;
     text-align: left;
 }
 
-
 img {
-    
     display: block;
     width: 100%;
 }
@@ -147,22 +133,19 @@ img {
 .rtt {
     position: fixed;
     bottom: 1em;
-    right: -1em;
+    left: -1em;
     width: 5em;
     height: auto;
 }
 
 .rtt2 {
-     display: none;   
-        
-    }
+     display: none;    
+}
 
 .button-grid {
-
     margin-left: auto;
     margin-right: auto;
     max-width: 35em;
-
 }
 
 .byline {
@@ -180,54 +163,41 @@ img {
 }
 
 h2 {
-
     display: none;
-
 }
 
 .wrapper {
     max-width: 50em;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
 }
 
 .bordertop {
-
     border-top: 27px solid #1b7aa1;
     border-radius: .5em;
-
 }
 
 .option {
-
     max-width: 12em;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
- 
 }
 
 .how {
-    
     background-color: #1b7aa1;
-    font-weight: 55em;
-    
+    font-weight: 55em; 
 }
 
 .centertext{
-    
     text-align: center;
-    
 }
 
 .right {
-
     text-align: right;
-
 }
 
 .header{
-    
     display: block;
     width: 100%;
     background-color: #1b7aa1;
@@ -242,9 +212,9 @@ h2 {
     background-position: center center;
     background-image: url(../images/ink_shelf.jpg);
     padding-top: 10%;
+    height: 100%;
 }
 
- 
 .nav-top ul { 
 	margin: 0;
     padding: 0;
@@ -308,8 +278,6 @@ a:focus {
 .skip-links a:focus {
     top: 0;
 }
-
-
 
 .nav {
     margin: 0;
@@ -400,21 +368,15 @@ a:focus {
             display: inline-block;
             margin: 0;
     }
-    
-    .rtt {
-     display: none;   
-        
+        .rtt {
+            display: none;     
     }
-    
-     .rtt2 {
-     display:inline;   
-        
+         .rtt2 {
+            display:inline;     
     }
-
-         .nav-top li {
+        .nav-top li {
             display: inline-block;
     }
-
         .billboard {
             padding-top: 3em;
     }
@@ -426,10 +388,9 @@ a:focus {
         .nav a:visited {
             display: inline-block;
     }
-    
-    .footer-nav {
-        text-align: center;
-        padding-top: 2%;
+        .footer-nav {
+            text-align: center;
+            padding-top: 2%;
     }
    
 }
@@ -448,35 +409,28 @@ a:focus {
             margin-top: 4em;
             margin-bottom: 4em;
     }
-
         .features {
             margin-top: 2em;
             margin-bottom: 2em;
     }
-
         h2 {
             display: block;
             font-weight: lighter;
     }
-
         .billboard {
             padding-top: 8em; 
     }
-
         .nav-top li {
             display: inline-block;  
     }
-
         .copy {
             text-align: left;
             padding-left: 5%;
         }
-    
     .footer-nav {
         text-align: right;
         padding-top: .8em;
         padding-right: 5%;
-        
     }
 }
 
@@ -486,7 +440,6 @@ a:focus {
         float: right;
         width: 10rem;
     }
-    
     .data dd {
         clear: right;
     }
