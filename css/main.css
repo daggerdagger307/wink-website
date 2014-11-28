@@ -16,10 +16,30 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size:110;
+    }
+}
+
 .body {
     margin: 0;
     padding: 0;
-
 }
 
 .logo {
@@ -112,17 +132,36 @@ img {
 }
 
 .button {
-
-    max-width: 12em;
+    max-width: 6em;
+    max-height: 1.5em;
     margin-left: auto;
     margin-right: auto;
-
+    line-height: 1.5em;
+    border-radius: .2em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
 }
+
+.rtt {
+    position: fixed;
+    bottom: 1em;
+    right: -1em;
+    width: 5em;
+    height: auto;
+}
+
+.rtt2 {
+     display: none;   
+        
+    }
 
 .button-grid {
 
     margin-left: auto;
     margin-right: auto;
+    max-width: 35em;
 
 }
 
@@ -242,27 +281,6 @@ h2 {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 60em) {
-    
-    html {
-        font-size: 110%;
-    }
-}
-
-@media only screen and (min-width: 90em) {
-    
-    html {
-        font-size: 1120%;
-    }
-}
-
-@media only screen and (min-width: 120em) {
-    
-    html {
-        font-size: 130%;
-    }
-}
-
 *, *:after, *:before {
     box-sizing: inherit;
 }
@@ -291,9 +309,7 @@ a:focus {
     top: 0;
 }
 
-.option {
-    max-width: 20em; 
-}
+
 
 .nav {
     margin: 0;
@@ -328,13 +344,6 @@ a:focus {
     margin: 0;
  }
 
-.btt {
-    text-decoration-color: #fff;
-}
-
-.copy {
-    text-align: center;
-}
 
 .instagram {
     max-width: 3em;
@@ -376,12 +385,30 @@ a:focus {
     text-decoration: none;
 }
 
+.copy {
+    text-align: center;
+    }
+
+.footer-nav {
+        text-align: center;
+    }
+
 @media only screen and (min-width: 25em) {
     
     
         .nav li {
             display: inline-block;
             margin: 0;
+    }
+    
+    .rtt {
+     display: none;   
+        
+    }
+    
+     .rtt2 {
+     display:inline;   
+        
     }
 
          .nav-top li {
@@ -399,6 +426,11 @@ a:focus {
         .nav a:visited {
             display: inline-block;
     }
+    
+    .footer-nav {
+        text-align: center;
+        padding-top: 2%;
+    }
    
 }
 
@@ -406,7 +438,6 @@ a:focus {
 
         .nav-top {
             width: 100%;
-           
             margin: 0;
             margin-left: auto;
             margin-right: auto;
@@ -437,8 +468,16 @@ a:focus {
     }
 
         .copy {
-            text-align: center;
+            text-align: left;
+            padding-left: 5%;
         }
+    
+    .footer-nav {
+        text-align: right;
+        padding-top: .8em;
+        padding-right: 5%;
+        
+    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -455,6 +494,6 @@ a:focus {
         padding-top: 3rem;
     }
      .copy {
-        text-align: center;
+        text-align: left;
     }
 }
