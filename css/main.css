@@ -46,6 +46,7 @@ html {
     max-width: 12em;
     display: block;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .iphone {
@@ -59,6 +60,111 @@ html {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.icon {
+    width: 10em;
+    margin: auto;
+}
+
+.myButtonLink {
+	display: block;
+	width: 11.2em;
+	height: 10.9em;
+	background: url(../images/camera.store.png) bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+	text-indent: -120em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myButtonLink:hover {
+	background-position: 0 0;
+}
+
+.myButtonLink2 {
+	display: block;
+	width: 11.2em;
+	height: 10.9em;
+	background: url(../images/formulas.cmyk.png) bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+	text-indent: -120em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myButtonLink2:hover {
+	background-position: 0 0;
+}
+
+.myButtonLink3 {
+	display: block;
+	width: 11.2em;
+	height: 10.9em;
+	background: url(../images/swatches.folder.png) bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+	text-indent: -120em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myButtonLink3:hover {
+	background-position: 0 0;
+}
+
+.features {
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+
+.quote {
+    text-align: right;
+    color: white;
+    margin-right: 10%;
+}
+
+.ceo {
+    color: #1b7aa1;
+}
+
+
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin: 1.5rem;
+}
+
+.joinnow a:hover,
+.joinnow a:focus,
+.joinnow a:active 
+.joinnow .nav-current,
+.joinnow .nav-current:link,
+.joinnow .nav-current:visited {
+    background-color: orange;
+    color: #fff; 
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 5em;
+    color: #76afc7;
+    float: left;
+    margin: 0 .2em 0 0;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 2rem;
+    position:absolute;
+    color: #76afc7;
+    margin: 0 .2em 0 0;
+}
+
+h3 {
+    text-align: center;
 }
 
 .join {
@@ -114,7 +220,7 @@ img {
 
 .button {
     max-width: 6em;
-    max-height: 1.5em;
+    max-height: 3.5em;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5em;
@@ -123,6 +229,28 @@ img {
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
+}
+
+.button a:hover,
+.button a:focus,
+.button a:active 
+.button .nav-current,
+.button .nav-current:link,
+.button .nav-current:visited {
+    background-color: orange;
+    color: #fff; 
+}
+
+.f-button {
+    max-width: 6em;
+    max-height: 3.5em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+    border-radius: .2em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .rtt {
@@ -173,7 +301,7 @@ h2 {
 }
 
 .option {
-    max-width: 12em;
+    max-width: 18em;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
@@ -182,6 +310,10 @@ h2 {
 .how {
     background-color: #1b7aa1;
     font-weight: 55em; 
+    background-image:url(../images/textured_background.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .centertext{
@@ -195,7 +327,10 @@ h2 {
 .header{
     display: block;
     width: 100%;
-    background-color: #1b7aa1;
+    background-image:url(../images/textured_background.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: repeat;
     margin-left: auto;
     margin-right: auto;
 }
@@ -206,14 +341,20 @@ h2 {
     background-size: cover;
     background-position: center center;
     background-image: url(../images/ink_shelf.jpg);
-    padding-top: 10%;
+    
     height: 100%;
+}
+
+.review {
+    max-width: 44em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-top ul { 
 	margin: 0;
     list-style-type: none;
-    background-color: #1b7aa1;
+    background: none;
     padding: .5em;
     font-size: 1rem;
     font-weight: lighter;
@@ -237,8 +378,9 @@ h2 {
 .nav-top .nav-current,
 .nav-top .nav-current:link,
 .nav-top .nav-current:visited {
-    background-color: black;
+    background-color: orange;
     color: #fff; 
+    border-radius: .2em;
 }
 
 *, *:after, *:before {
@@ -258,7 +400,7 @@ a:focus {
 .skip-links a {
     position: absolute;
     top: -3em;
-    background-color: #1B7AA1;
+    background-color: #222;
     color: #fff;
     padding: 0.5em 0.75em;
     font-weight: bold;
@@ -293,7 +435,7 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: #1b7aa1;
+    background-color: #222;
     color: #fff;
 }
 
@@ -301,6 +443,11 @@ a:focus {
     display: inline-block;
     margin: 0;
  }
+
+.bullet ul li {
+    list-style-image: url(../images/arrow.svg);
+    font-size: 5.em;
+}
 
 .instagram {
     max-width: 3em;
@@ -345,6 +492,12 @@ a:focus {
 .copy {
     text-align: center;
     }
+.footer {
+    background-image:url(../images/textured_background_Dark.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 .footer-nav {
         text-align: center;
@@ -355,6 +508,12 @@ a:focus {
     .nav li {
         display: inline-block;
         margin: 0;
+        }
+    .quote {
+        text-align: right;
+        color: white;
+        font-weight: bold;
+        margin-right: 15%;
         }
     .rtt {
         display: none;     
@@ -394,10 +553,6 @@ a:focus {
     .overview {
         margin-top: 4em;
         margin-bottom: 4em;
-        }
-    .features {
-        margin-top: 2em;
-        margin-bottom: 2em;
         }
     h2 {
         display: block;
