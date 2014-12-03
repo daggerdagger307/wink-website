@@ -67,51 +67,54 @@ html {
     margin: auto;
 }
 
-.myButtonLink {
+.mybuttonlink {
 	display: block;
 	width: 11.2em;
-	height: 10.9em;
-	background: url(../images/camera.store.png) bottom;
+	height: 11.2em;
+	background-image: url(../images/camera.store.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100% auto;
+    background-position: center bottom;
 	text-indent: -120em;
     margin-left: auto;
     margin-right: auto;
 }
 
-.myButtonLink:hover {
+.mybuttonlink:hover {
 	background-position: 0 0;
 }
 
-.myButtonLink2 {
+.mybuttonlink2 {
 	display: block;
 	width: 11.2em;
-	height: 10.9em;
-	background: url(../images/formulas.cmyk.png) bottom;
+	height: 11.2em;
+	background-image: url(../images/formulas.cmyk.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100% auto;
+    background-position: center bottom;
 	text-indent: -120em;
     margin-left: auto;
     margin-right: auto;
 }
 
-.myButtonLink2:hover {
+.mybuttonlink2:hover {
 	background-position: 0 0;
 }
 
-.myButtonLink3 {
-	display: block;
+.mybuttonlink3 {
+    display: block;
 	width: 11.2em;
-	height: 10.9em;
-	background: url(../images/swatches.folder.png) bottom;
+	height: 11.2em;
+	background-image: url(../images/swatches.folder.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100% auto;
+    background-position: center bottom;
 	text-indent: -120em;
     margin-left: auto;
     margin-right: auto;
 }
 
-.myButtonLink3:hover {
+.mybuttonlink3:hover {
 	background-position: 0 0;
 }
 
@@ -130,13 +133,6 @@ html {
     color: #1b7aa1;
 }
 
-
-blockquote span {
-    font-weight: bold;
-    float: right;
-    margin: 1.5rem;
-}
-
 .joinnow a:hover,
 .joinnow a:focus,
 .joinnow a:active 
@@ -147,12 +143,20 @@ blockquote span {
     color: #fff; 
 }
 
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin: 1.5rem;
+}
+
 blockquote p:before {
     content: "“";
     font-size: 5em;
     color: #76afc7;
     float: left;
-    margin: 0 .2em 0 0;
+    margin: 0 .2em 0 -.5em;
+    line-height: .3em;
+    position: absolute;
 }
 
 blockquote p:after {
@@ -161,6 +165,7 @@ blockquote p:after {
     position:absolute;
     color: #76afc7;
     margin: 0 .2em 0 0;
+    line-height: 1em;
 }
 
 h3 {
@@ -220,7 +225,6 @@ img {
 
 .button {
     max-width: 6em;
-    max-height: 3.5em;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5em;
@@ -231,6 +235,10 @@ img {
     font-weight: bold;
 }
 
+.button a {
+    display: inline-block;
+}
+
 .button a:hover,
 .button a:focus,
 .button a:active 
@@ -239,6 +247,7 @@ img {
 .button .nav-current:visited {
     background-color: orange;
     color: #fff; 
+    
 }
 
 .f-button {
@@ -285,6 +294,12 @@ img {
     width: 500px;
 }
 
+.byline3 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25em;
+}
+
 h2 {
     display: none;
 }
@@ -295,13 +310,25 @@ h2 {
     margin-right: auto;  
 }
 
+.wrapper2 {
+    max-width: 70em;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.everyone {
+    max-width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .bordertop {
     border-top: 27px solid #1b7aa1;
     border-radius: .5em;
 }
 
 .option {
-    max-width: 18em;
+    max-width: 25em;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
@@ -341,7 +368,15 @@ h2 {
     background-size: cover;
     background-position: center center;
     background-image: url(../images/ink_shelf.jpg);
-    
+    height: 100%;
+}
+
+.billboard2 {
+    padding: 12%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/shop.png);
     height: 100%;
 }
 
@@ -349,6 +384,10 @@ h2 {
     max-width: 44em;
     margin-left: auto;
     margin-right: auto;
+}
+
+.nav-top li {
+        display: inline-block;
 }
 
 .nav-top ul { 
@@ -388,7 +427,7 @@ h2 {
 }
 
 a:focus {
-    outline: 3px solid #000;
+    outline: 3px 50% orange;
 }
 
 .skip-links {
@@ -446,7 +485,6 @@ a:focus {
 
 .bullet ul li {
     list-style-image: url(../images/arrow.svg);
-    font-size: 5.em;
 }
 
 .instagram {
@@ -521,9 +559,7 @@ a:focus {
     .rtt2 {
         display: inline;     
         }
-    .nav-top li {
-        display: inline-block;
-        }
+
     .billboard {
         padding-top: 3em;
         }
@@ -543,6 +579,11 @@ a:focus {
 
 @media only screen and (min-width: 38em) {
 
+    .signin {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    }
     .nav-top {
         width: 100%;
         margin: 0;
