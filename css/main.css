@@ -290,6 +290,13 @@ img {
     text-transform: capitalize;
     font-weight: bold;
     display: inline-block;
+    background-color: #1b7aa1;
+    border: 0;
+}
+
+.buttonjoin {
+    width: 8em;
+    font-weight: bold;
 }
 
 .button:hover,
@@ -299,8 +306,7 @@ img {
 .button .nav-current:link,
 .button .nav-current:visited {
     background-color: orange;
-    color: #fff; 
-    
+    color: #fff;  
 }
 
 .f-button {
