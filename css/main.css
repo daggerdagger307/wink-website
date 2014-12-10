@@ -118,6 +118,57 @@ html {
 	background-position: 0 0;
 }
 
+.pricelink {
+	display: block;
+	width: 15em;
+	height: 15em;
+	background-image: url(../images/freefeature.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center bottom;
+	text-indent: -120em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricelink:hover {
+	background-position: 0 0;
+}
+
+.pricelink2 {
+	display: block;
+	width: 15em;
+	height: 15em;
+	background-image: url(../images/sevenfeature.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center bottom;
+	text-indent: -120em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricelink2:hover {
+	background-position: 0 0;
+}
+
+.pricelink3 {
+	display: block;
+	width: 15em;
+	height: 15em;
+	background-image: url(../images/fifteenfeature.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center bottom;
+	text-indent: -120em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricelink3:hover {
+	background-position: 0 0;
+}
+
 .features {
         margin-top: auto;
         margin-bottom: auto;
@@ -304,6 +355,10 @@ h2 {
     display: none;
 }
 
+.founder {
+    font-weight: bold;
+}
+
 .wrapper {
     max-width: 50em;
     margin-left: auto;
@@ -377,6 +432,15 @@ h2 {
     background-size: cover;
     background-position: center center;
     background-image: url(../images/shop.png);
+    height: 100%;
+}
+
+.billboard3 {
+    padding: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/founders.png);
     height: 100%;
 }
 
@@ -484,7 +548,7 @@ a:focus {
  }
 
 .bullet ul li {
-    list-style-image: url(../images/arrow.svg);
+    list-style-image: url(../images/bullet.svg);
 }
 
 .instagram {
@@ -592,6 +656,10 @@ a:focus {
         display: inline-block;
         }
     .overview {
+        margin-top: 4em;
+        margin-bottom: 4em;
+        }
+    .clickaway {
         margin-top: 4em;
         margin-bottom: 4em;
         }
