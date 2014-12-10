@@ -280,7 +280,7 @@ img {
 }
 
 .button {
-    max-width: 6em;
+    width: 6em;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5em;
@@ -289,15 +289,12 @@ img {
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
-}
-
-.button a {
     display: inline-block;
 }
 
-.button a:hover,
-.button a:focus,
-.button a:active 
+.button:hover,
+.button:focus,
+.button:active 
 .button .nav-current,
 .button .nav-current:link,
 .button .nav-current:visited {
@@ -334,6 +331,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     max-width: 35em;
+    text-align: center;
 }
 
 .byline {
@@ -394,6 +392,14 @@ h2 {
     margin-right: auto;
 }
 
+#paid {
+    display: none;
+}
+
+#paid:target {
+    display: block;
+}
+
 .how {
     background-color: #1b7aa1;
     font-weight: 55em; 
@@ -436,7 +442,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(../images/shop.png);
+    background-image: url(../images/shop.jpg);
     height: 100%;
 }
 
@@ -445,7 +451,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-image: url(../images/founders.png);
+    background-image: url(../images/founders.jpg);
     height: 100%;
 }
 

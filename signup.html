@@ -21,8 +21,8 @@
   <main>
         <a href="#top"><img src="images/arrow.svg" alt="Return to Top" class="rtt"></a>
             <div class="header pad-t">
-                <div  class="logo"><a href="index.html"><img src="images/winklogo.svg"></div>
-                </a>
+                <div  class="logo"><a href="index.html"><img src="images/winklogo.svg">
+                </a></div>
                         <nav role="navigation" class="nav-top"  id="nav">	
                             <ul>
                                 <li class="push-1-2"><a href="pricing.html" class="gutter brand-family">Pricing</a></li>
@@ -37,6 +37,35 @@
 <div class="join sectionlight">
     
     <form class="pad-t-2">  
+            <div id="paid">
+                <div class="island brand-family-body-copy">
+                    <p class="push mega">Method of payment</p>
+                    <span class="radio">
+                        <input type="radio" id="visa" name="level-of-awesomeness">
+                        <label for="visa">Visa</label>
+                    </span>
+                    <span class="radio">
+                        <input type="radio" id="visa" name="level-of-awesomeness">
+                        <label for="visa">Mast Card</label>
+                    </span>
+                    <span class="radio">
+                        <input type="radio" id="visa" name="level-of-awesomeness">
+                        <label for="visa">Amex</label>
+                    </span>
+                </div>
+                <div class="island brand-family-body-copy">
+                    <label for="number">Credit card number:</label> 
+                    <input class="credit" id="number"> 
+                </div>
+                <div class="island brand-family-body-copy">
+                    <label for="number">Name on card:</label>    
+                    <input class="name" id="number"> 
+                </div>
+                <div class="island brand-family-body-copy">
+                    <label for="number">Expiry:</label>    
+                    <input class="credit" id="number" type="date"> 
+                </div>
+            </div>
             <div class="island brand-family-body-copy">   
                 <label for="name">Choose a username:</label>    
                 <input class="name" id="name"> 
@@ -57,22 +86,9 @@
                 <label for="stuff">What ink brands of ink do you use?</label>
                 <textarea class="explain" id="stuff"></textarea>
             </div>
-        
-            <div class="island brand-family-body-copy">
-                <label for="number">Credit card number:</label> 
-                <input class="credit" id="number"> 
-            </div>
-            <div class="island brand-family-body-copy">
-                <label for="number">Name on card:</label>    
-                <input class="name" id="number"> 
-            </div>
-            <div class="island brand-family-body-copy">
-                <label for="number">Expiery:</label>    
-                <input class="credit" id="number" type="date"> 
-            </div>
     </form>
 
-            <div class="island">
+            <div class="island button">
                 <button inputtype="button" onclick="sign up"><a href="thankyou.html">Sign&nbsp;Up</a></button>
             </div>
         
